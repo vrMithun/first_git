@@ -1,0 +1,5 @@
+file2=open('tes.txt','w')
+print(file2.write('joshua is not a human'))
+file2.close()
+file2=open('tes.txt','r')
+print(file2.read())
