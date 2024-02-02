@@ -1,3 +1,0 @@
-This is my first text file from local repo.
-
-I'm adding some content from git web.
