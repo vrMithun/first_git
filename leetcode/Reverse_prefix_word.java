@@ -1,4 +1,4 @@
-class Solution {
+class Reverse_prefix_word {
     public String reversePrefix(String word, char ch) {
         String word3, word2 = "";
         int t = 0;
@@ -25,7 +25,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution myobj = new Solution();
+        Reverse_prefix_word myobj = new Reverse_prefix_word();
         System.out.println(myobj.reversePrefix("abcdefd", 'd'));
     }
 }

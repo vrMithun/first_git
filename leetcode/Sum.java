@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Solution {
+class Sum {
     public int[] twoSum(int[] nums, int target) {
         ArrayList<Integer> index = new ArrayList<>();
         for (int i = 0; i < nums.length - 1; i++) {
@@ -23,7 +23,7 @@ class Solution {
     public static void main(String[] args) {
         int[] nums = { 2, 7, 11, 15 };
         int target = 9;
-        Solution myobj = new Solution();
+        Sum myobj = new Sum();
         int[] result = myobj.twoSum(nums, target);
         for (int num : result) {
             System.out.print(num + " ");

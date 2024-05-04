@@ -1,4 +1,4 @@
-class Solution {
+public class largest {
     public int findMaxK(int[] array) {
         int[] arr = new int[array.length];
         int test = 0;
@@ -28,8 +28,8 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution myobj = new Solution();
+        largest myobj = new largest();
         int[] array = { -37, 37, -9, 2, 47, 18, 13, -11, 9, -28 };
-        myobj.findMaxK(array);
+        System.out.println(myobj.findMaxK(array));
     }
 }

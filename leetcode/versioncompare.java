@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Solution {
+public class versioncompare {
     public int compareVersion(String version1, String version2) {
         char[] chararr1 = version1.toCharArray();
         char[] chararr2 = version2.toCharArray();
@@ -91,7 +91,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution myobj = new Solution();
+        versioncompare myobj = new versioncompare();
         String version1 = "10.20";
         String version2 = "10.21";
         System.out.println(myobj.compareVersion(version1, version2));
