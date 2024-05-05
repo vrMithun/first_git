@@ -1,4 +1,4 @@
-public class water_trap {
+public class water {
     public int trap(int[] height) {
         int point, move, difference, area;
         point = 0;
@@ -58,8 +58,8 @@ public class water_trap {
     }
 
     public static void main(String[] args) {
-        water_trap myobj = new water_trap();
-        int[] height = { 4, 2, 3 };
+        water myobj = new water();
+        int[] height = { 4, 3, 2 };
         // myobj.trap(height);
         System.out.println(myobj.trap(height));
 
