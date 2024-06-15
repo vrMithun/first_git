@@ -16,3 +16,4 @@ Ans=t_c(G)
 print("Transitive Closure")
 for row in Ans:
     print(row)
+    

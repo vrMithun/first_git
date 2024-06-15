@@ -1,110 +1,144 @@
-import java.util.ArrayList;
-import java.util.List;
+package zoo_maintains_details;
+import java.util.HashMap;
+import java.util.Scanner;
+class Zoo {
+    private HashMap<String, String> employee;
 
-class Equipment {
-    private String type;
-
-    public Equipment(String type) {
-        this.type = type;
+    public Zoo() {
+        employee = new HashMap<>();
+        employee.put("John Doe", "Caretaker");
+        employee.put("Jane Smith", "Doctor");
+        employee.put("Bob Brown", "MedicalAssistant");
+        employee.put("Dr. Brown", "Doctor");
+        employee.put("Anna Smith","Caretaker");
+        employee.put("Mike Johnson","MedicalAssistant");
     }
 
-    public String getType() {
-        return type;
+    public void add_employee(String name, String work) {
+        employee.put(name, work);
     }
 
-    @Override
-    public String toString() {
-        return "Equipment Type: " + type;
+    public HashMap<String, String> getEmployee() {
+        return employee;
     }
+
 }
 
-class ProjectMember {
-    private String type;
+class Caretakers {
+    public Zoo name=new Zoo();
+
+    public void details() {
+        HashMap<String, String> caretakers = name.getEmployee();
+        for (HashMap.Entry<String, String> entry : caretakers.entrySet()) {
+            if (entry.getValue().equals("Caretaker")) {
+                System.out.println(entry.getKey()+" (Caretaker)");
+            }
+        }
+    }
+}
+class Doctors extends Caretakers{
+	public void details() {
+        HashMap<String, String> doctors = name.getEmployee();
+        for (HashMap.Entry<String, String> entry : doctors.entrySet()) {
+            if (entry.getValue().equals("Doctor")) {
+                System.out.println(entry.getKey()+"(Doctor)");
+            }
+        }
+    }
+}
+class MedicalAssistants extends Caretakers{
+	public void details() {
+        HashMap<String, String> medicalAssistant = name.getEmployee();
+        for (HashMap.Entry<String, String> entry : medicalAssistant.entrySet()) {
+            if (entry.getValue().equals("MedicalAssistant")) {
+                System.out.println(entry.getKey()+" (MedicalAssistant)");
+            }
+        }
+    }
+}
+class Animal {
     private String name;
+    private String doctor;
+    private String caretaker;
+    private String medicalAssistant;
+    private String food;
+    private String medicine;
 
-    public ProjectMember(String type, String name) {
-        this.type = type;
+    public Animal(String name, String doctor, String caretaker, String medicalAssistant, String food, String medicine) {
         this.name = name;
+        this.doctor = doctor;
+        this.caretaker = caretaker;
+        this.medicalAssistant = medicalAssistant;
+        this.food = food;
+        this.medicine = medicine;
     }
 
-    public String getType() {
-        return type;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public String toString() {
-        return "Project Member Type: " + type + ", Name: " + name;
-    }
-}
-
-class Project {
-    private int id;
-    private String title;
-    private double totalBudget;
-    private int totalMembers;
-    private int totalEquipments;
-    private List<ProjectMember> members;
-    private List<Equipment> equipments;
-
-    public Project(int id, String title, double totalBudget, int totalMembers, int totalEquipments) {
-        this.id = id;
-        this.title = title;
-        this.totalBudget = totalBudget;
-        this.totalMembers = totalMembers;
-        this.totalEquipments = totalEquipments;
-        members = new ArrayList<>();
-        equipments = new ArrayList<>();
-    }
-
-    public void addMember(ProjectMember member) {
-        members.add(member);
-    }
-
-    public void addEquipment(Equipment equipment) {
-        equipments.add(equipment);
-    }
-
-    public void displayDetails() {
-        System.out.println("Project ID: " + id);
-        System.out.println("Title: " + title);
-        System.out.println("Total Budget: " + totalBudget);
-        System.out.println("Total Members: " + totalMembers);
-        System.out.println("Total Equipments: " + totalEquipments);
-        System.out.println("Project Members:");
-        for (ProjectMember member : members) {
-            System.out.println(member);
-        }
-        System.out.println("Equipments:");
-        for (Equipment equipment : equipments) {
-            System.out.println(equipment);
-        }
+    public void printDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Doctor: " + doctor);
+        System.out.println("Caretaker: " + caretaker);
+        System.out.println("Medical Assistant: " + medicalAssistant);
+        System.out.println("Food: " + food);
+        System.out.println("Medicine: " + medicine);
+        System.out.println("---------------------------------------------");
     }
 }
 
-public class assignment {
+class Lion extends Animal {
+    public Lion(String name, String doctor, String caretaker, String medicalAssistant, String food, String medicine) {
+        super(name, doctor, caretaker, medicalAssistant, food, medicine);
+    }
+}
+
+class Elephant extends Animal {
+    public Elephant(String name, String doctor, String caretaker, String medicalAssistant, String food, String medicine) {
+        super(name, doctor, caretaker, medicalAssistant, food, medicine);
+    }
+}
+public class test {
     public static void main(String[] args) {
-        Project project1 = new Project(1, "Research Project 1", 10000, 5, 3);
-        project1.addMember(new ProjectMember("Coordinator", "John Doe"));
-        project1.addMember(new ProjectMember("Intern", "Jane Smith"));
-        project1.addMember(new ProjectMember("Researcher", "David Brown"));
-        project1.addEquipment(new Equipment("Hardware"));
-        project1.addEquipment(new Equipment("Software"));
-        project1.addEquipment(new Equipment("Software"));
+    	
+        Scanner scanner = new Scanner(System.in);
+        String continueChoice;
+        Caretakers obj1=new Caretakers();
+        Doctors obj2=new Doctors();
+        MedicalAssistants obj3=new MedicalAssistants();
+        do {
+            System.out.println("-------------Zoo-----------");
+            System.out.println("Available animals:");
+            System.out.println("Lion, Elephant");
+            System.out.println("Type (Lion) to get details of lion and (Elephant) to get details of Elephant");
+            System.out.println("*****************************");
+            System.out.println("Available employees");
+            System.out.println("Doctor,Caretaker,MedicalAssistant");
+            System.out.println("Type (Doctor)to get details of doctor");
+            System.out.println("Type (MedicalAssitant)to get details of MedicalAssistant");
+            System.out.println("Type (Caretaker)to get details of Caretaker");
+            System.out.println("*****************************");
+            String animalChoice = scanner.next();
+            String employeeChoice=scanner.next();
+            if ("Lion".equals(animalChoice)) {
+                Lion lion = new Lion("Simba", "Jane Smith", "John Doe", "Bob Brown", "Meat", "Painkillers");
+                lion.printDetails();
+            } else if ("Elephant".equals(animalChoice)) {
+                Elephant elephant = new Elephant("Dumbo", "Dr. Brown", "Anna Smith", "Mike Johnson", "Vegetables", "Antibiotics");
+                elephant.printDetails();
+            } else if("Doctor".equals(employeeChoice)) {
+            	obj2.details();
+            }else if("Caretaker".equals(employeeChoice)) {
+            	obj1.details();
+            }else if("MedicalAssistant".equals(employeeChoice)) {
+            	obj3.details();
+            }
+            else {
+                System.out.println("Invalid animal choice!");
+            }
 
-        Project project2 = new Project(2, "Research Project 2", 15000, 7, 4);
-        project2.addMember(new ProjectMember("Faculty", "Emily Johnson"));
-        project2.addMember(new ProjectMember("Researcher", "Michael Wilson"));
-        project2.addEquipment(new Equipment("Hardware"));
-        project2.addEquipment(new Equipment("Software"));
-        project2.addEquipment(new Equipment("Hardware"));
-        project2.addEquipment(new Equipment("Hardware"));
+            System.out.println("Do you want to continue? (Yes/No)");
+            continueChoice = scanner.next();
+        } while ("Yes".equals(continueChoice));
 
-        project1.displayDetails();
-        System.out.println("------------------------");
-        project2.displayDetails();
+        System.out.println("Exiting program.");
+        scanner.close();
     }
 }
