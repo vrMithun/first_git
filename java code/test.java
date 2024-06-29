@@ -1,6 +1,7 @@
-package zoo_maintains_details;
+
 import java.util.HashMap;
 import java.util.Scanner;
+
 class Zoo {
     private HashMap<String, String> employee;
 
@@ -10,8 +11,8 @@ class Zoo {
         employee.put("Jane Smith", "Doctor");
         employee.put("Bob Brown", "MedicalAssistant");
         employee.put("Dr. Brown", "Doctor");
-        employee.put("Anna Smith","Caretaker");
-        employee.put("Mike Johnson","MedicalAssistant");
+        employee.put("Anna Smith", "Caretaker");
+        employee.put("Mike Johnson", "MedicalAssistant");
     }
 
     public void add_employee(String name, String work) {
@@ -25,37 +26,40 @@ class Zoo {
 }
 
 class Caretakers {
-    public Zoo name=new Zoo();
+    public Zoo name = new Zoo();
 
     public void details() {
         HashMap<String, String> caretakers = name.getEmployee();
         for (HashMap.Entry<String, String> entry : caretakers.entrySet()) {
             if (entry.getValue().equals("Caretaker")) {
-                System.out.println(entry.getKey()+" (Caretaker)");
+                System.out.println(entry.getKey() + " (Caretaker)");
             }
         }
     }
 }
-class Doctors extends Caretakers{
-	public void details() {
+
+class Doctors extends Caretakers {
+    public void details() {
         HashMap<String, String> doctors = name.getEmployee();
         for (HashMap.Entry<String, String> entry : doctors.entrySet()) {
             if (entry.getValue().equals("Doctor")) {
-                System.out.println(entry.getKey()+"(Doctor)");
+                System.out.println(entry.getKey() + "(Doctor)");
             }
         }
     }
 }
-class MedicalAssistants extends Caretakers{
-	public void details() {
+
+class MedicalAssistants extends Caretakers {
+    public void details() {
         HashMap<String, String> medicalAssistant = name.getEmployee();
         for (HashMap.Entry<String, String> entry : medicalAssistant.entrySet()) {
             if (entry.getValue().equals("MedicalAssistant")) {
-                System.out.println(entry.getKey()+" (MedicalAssistant)");
+                System.out.println(entry.getKey() + " (MedicalAssistant)");
             }
         }
     }
 }
+
 class Animal {
     private String name;
     private String doctor;
@@ -91,18 +95,20 @@ class Lion extends Animal {
 }
 
 class Elephant extends Animal {
-    public Elephant(String name, String doctor, String caretaker, String medicalAssistant, String food, String medicine) {
+    public Elephant(String name, String doctor, String caretaker, String medicalAssistant, String food,
+            String medicine) {
         super(name, doctor, caretaker, medicalAssistant, food, medicine);
     }
 }
+
 public class test {
     public static void main(String[] args) {
-    	
+
         Scanner scanner = new Scanner(System.in);
         String continueChoice;
-        Caretakers obj1=new Caretakers();
-        Doctors obj2=new Doctors();
-        MedicalAssistants obj3=new MedicalAssistants();
+        Caretakers obj1 = new Caretakers();
+        Doctors obj2 = new Doctors();
+        MedicalAssistants obj3 = new MedicalAssistants();
         do {
             System.out.println("-------------Zoo-----------");
             System.out.println("Available animals:");
@@ -116,21 +122,21 @@ public class test {
             System.out.println("Type (Caretaker)to get details of Caretaker");
             System.out.println("*****************************");
             String animalChoice = scanner.next();
-            String employeeChoice=scanner.next();
+            String employeeChoice = scanner.next();
             if ("Lion".equals(animalChoice)) {
                 Lion lion = new Lion("Simba", "Jane Smith", "John Doe", "Bob Brown", "Meat", "Painkillers");
                 lion.printDetails();
             } else if ("Elephant".equals(animalChoice)) {
-                Elephant elephant = new Elephant("Dumbo", "Dr. Brown", "Anna Smith", "Mike Johnson", "Vegetables", "Antibiotics");
+                Elephant elephant = new Elephant("Dumbo", "Dr. Brown", "Anna Smith", "Mike Johnson", "Vegetables",
+                        "Antibiotics");
                 elephant.printDetails();
-            } else if("Doctor".equals(employeeChoice)) {
-            	obj2.details();
-            }else if("Caretaker".equals(employeeChoice)) {
-            	obj1.details();
-            }else if("MedicalAssistant".equals(employeeChoice)) {
-            	obj3.details();
-            }
-            else {
+            } else if ("Doctor".equals(employeeChoice)) {
+                obj2.details();
+            } else if ("Caretaker".equals(employeeChoice)) {
+                obj1.details();
+            } else if ("MedicalAssistant".equals(employeeChoice)) {
+                obj3.details();
+            } else {
                 System.out.println("Invalid animal choice!");
             }
 
