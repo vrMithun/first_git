@@ -1,5 +1,7 @@
 #include<stdio.h>
+#define pi 3.14
 int main(){
-    int k;
-    printf("%d",k);
+    int a,b,c;
+    scanf("%3d %3d %3d",&a,&b,&c);
+    printf("%d %d %d",a,b,c);
 }
