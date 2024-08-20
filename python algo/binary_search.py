@@ -15,7 +15,7 @@ while j<=index+1:
         print(mid)
         break
     elif t>l[mid]:
-        low=mid-1
+        low=mid+1
         j=j+1
     else:
         high=mid    
