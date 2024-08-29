@@ -16,7 +16,9 @@ class Stack:
         if self.head is None:
             print("Stack is empty, cannot pop.")
             return
+        n=self.head
         self.head = self.head.ref
+        del n
 
     def top(self):
         if self.head is None:
@@ -43,3 +45,14 @@ class Stack:
             print("Stack is empty.")
         else:
             print("Stack is not empty.") 
+myObj=Stack()
+myObj.push(1)
+myObj.push(2)
+myObj.push(3)
+myObj.push(4)
+myObj.pop()
+myObj.pop()
+myObj.pop()
+myObj.pop()
+myObj.push(1)
+myObj.traverse()            

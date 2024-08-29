@@ -46,22 +46,38 @@ class LinkedList:
         new_node=node(data)
         n=self.head
         if position==0:
-            self.add_begin(data)
-        if position==1:
-            n.ref=new_node    
-        for _ in range(position):
-            if n.ref!=None: 
-                n=n.ref
-            else:
-                self.add_end(data)  
-                break  
-        n.ref=new_node                
+            self.add_begin(data)      
+        else:
+            for _ in range(position-1):
+                if n.ref!=None:
+                    n=n.ref   
+            temp=n.ref
+            n.ref=new_node
+            new_node.ref=temp
+
     def del_first(self):
         if self.head.ref==None:
             del self.head
         else:
             temp=self.head
             self.head=self.head.ref
-            del temp            
+            del temp 
+    def reverse(self):
+        prev=None
+        current=self.head
+        while current:
+            nxt=current.ref
+            current.ref=prev
+            prev=current
+            current=nxt
+        self.head=prev                 
+myobj=LinkedList()
+myobj.add(1,0)  
+myobj.add(3,1)
+myobj.add(4,2)
+myobj.add(2,3)
+myobj.add(10,6)
+myobj.reverse()
+myobj.traversal()    
                    
 
