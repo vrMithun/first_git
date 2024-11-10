@@ -1,0 +1,69 @@
+class MinHeap:
+    def __init__(self):
+        self.heap = [None]  # Start the heap with None at index 0 for easier calculations
+
+    # Insert a new element into the heap
+    def insert(self, value):
+        self.heap.append(value)  # Add the value to the end of the list
+        self.bubble_up(len(self.heap) - 1)  # Restore the heap property by bubbling up
+
+    # Bubble up to restore the min-heap property
+    def bubble_up(self, index):
+        parent_index = index // 2
+        # While we're not at the root and the current value is smaller than the parent's value
+        while index > 1 and self.heap[index] < self.heap[parent_index]:
+            # Swap the current value with the parent value
+            self.heap[index], self.heap[parent_index] = self.heap[parent_index], self.heap[index]
+            index = parent_index  # Move up to the parent
+            parent_index = index // 2
+
+    # Extract the minimum element (the root) from the heap
+    def extract_min(self):
+        if len(self.heap) == 1:
+            return None  # Empty heap
+
+        # Replace the root with the last element
+        min_value = self.heap[1]
+        self.heap[1] = self.heap.pop()  # Remove the last element and place it at the root
+
+        # Restore the heap property by bubbling down
+        self.bubble_down(1)
+
+        return min_value
+
+    # Bubble down to restore the min-heap property
+    def bubble_down(self, index):
+        smallest = index
+        left_child_index = 2 * index
+        right_child_index = 2 * index + 1
+
+        # Check if the left child is smaller than the current node
+        if left_child_index < len(self.heap) and self.heap[left_child_index] < self.heap[smallest]:
+            smallest = left_child_index
+
+        # Check if the right child is smaller than the current node
+        if right_child_index < len(self.heap) and self.heap[right_child_index] < self.heap[smallest]:
+            smallest = right_child_index
+
+        # If the smallest value is not the current node, swap and recurse
+        if smallest != index:
+            self.heap[index], self.heap[smallest] = self.heap[smallest], self.heap[index]
+            self.bubble_down(smallest)
+
+    # Get the current state of the heap
+    def get_heap(self):
+        return self.heap[1:]  # Return the heap excluding the None at index 0
+
+# Example usage:
+heap = MinHeap()
+heap.insert(10)
+heap.insert(15)
+heap.insert(20)
+heap.insert(17)
+heap.insert(8)
+
+print("Heap after insertion:", heap.get_heap())
+
+min_value = heap.extract_min()
+print("Extracted min value:", min_value)
+print("Heap after extracting min:", heap.get_heap())

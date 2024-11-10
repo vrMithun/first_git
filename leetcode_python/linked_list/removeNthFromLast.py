@@ -8,6 +8,4 @@ class LL:
     def push(self,data):
         if self.head.data==None:
             self.head.data=data   
-        else:
-            new_Node=Node()
-            while      
+              

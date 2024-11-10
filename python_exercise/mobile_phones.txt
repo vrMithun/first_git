@@ -1,0 +1,15 @@
+name;price;review_score
+Samsung Galaxy S21;70000;4.8
+iPhone 13;80000;4.7
+OnePlus 9;50000;4.6
+Google Pixel 6;60000;4.5
+Xiaomi Mi 11;45000;4.4
+Realme GT;35000;4.3
+Oppo Reno 6;30000;4.2
+Vivo V21;25000;4.1
+Nokia 8.3;40000;4.0
+Sony Xperia 10;30000;4.0
+Huawei P40;55000;4.5
+Motorola Edge;40000;4.2
+LG Velvet;45000;4.0
+Asus ROG Phone 5;80000;4.8

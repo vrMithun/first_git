@@ -31,7 +31,6 @@ class Binary_tree:
         elif address:
             print(address.data)
             self.traverse(address.lc)
-        if address:
             self.traverse(address.rc)
         
 myobj=Binary_tree()
