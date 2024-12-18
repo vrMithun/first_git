@@ -103,7 +103,6 @@ root = None
 keys = [10, 20, 30, 40, 50, 25]
 for key in keys:
     root = avl.insert(root, key)
-
 # In-order traversal to print the AVL tree
 print("In-order traversal of the AVL tree is:")
 avl.in_order(root)
