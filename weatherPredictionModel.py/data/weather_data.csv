@@ -1,0 +1,6 @@
+temperature,pressure,humidity,weather_condition
+30,1012,70,sunny
+25,1010,80,cloudy
+28,1008,60,rainy
+32,1015,50,sunny
+26,1011,75,cloudy
