@@ -17,11 +17,14 @@ void radixsort(vector<int>& arr) {
 
         int i = 0;
         for (auto& buckets : bucket) {
-            for (auto& val : buckets) {
+            for (int& val : buckets) {
                 arr[i++] = val;
             }
         }
-
+        for (int i : arr) {
+            cout << i << " ";
+        }
+        cout<<"\n";
         exp *= 10;
     }
 }
@@ -29,7 +32,5 @@ void radixsort(vector<int>& arr) {
 int main() {
     vector<int> arr = {489, 987, 456, 3456, 2343, 7777, 123, 311};
     radixsort(arr);
-    for (int i : arr) {
-        cout << i << " ";
-    }
+
 }

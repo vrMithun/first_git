@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<pthread.h>
+#include<unistd.h>
+
+#define iter 5
+
+int flag[2]={0,0};
+int turn=0;
+
+void *process0(void *arg){
+    for(int i=0;i<iter;i++){
+        flag[0]=1;
+        turn=1;
+        while(flag[1] && turn==1);
+        printf("process 0 entered cs\n");
+        sleep(1);
+        flag[0]=0;
+    }
+    return NULL;
+}
+
+void *process1(void *arg){
+    for(int i=0;i<iter;i++){
+        flag[1]=1;
+        turn=0;
+        while(flag[0] && turn==0);
+        printf("process 1 entered cs\n");
+        sleep(1);
+        flag[1]=0;
+    }
+    return NULL;
+}
+
+int main(){
+    pthread_t t0,t1;
+    pthread_create(&t0,NULL,process0,NULL);
+    pthread_create(&t1,NULL,process1,NULL);
+    pthread_join(t0,NULL);
+    pthread_join(t1,NULL);
+    return 0;
+}
