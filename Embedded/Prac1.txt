@@ -1,0 +1,43 @@
+/*
+When PA0 is pressed, PC13 should blink at 1 Hz (1 second ON, 1 second OFF)
+
+When PA0 is not pressed, PC13 must remain OFF (no blinking at all)
+
+Use manual delay with delay_ms() function
+*/
+
+#include "stm32f4xx.h"
+
+void delay(int time){
+	for(uint32_t i=0;i<time*1000;i++){
+		__asm("NOP");
+	}
+}
+
+void switch_led(){
+	RCC->AHB1ENR |= (1u<<2);
+	RCC->AHB1ENR |= (1u<<0);
+	
+	GPIOC->MODER &= ~(3<<26);
+	GPIOC->MODER |= (1<<26);
+	
+	GPIOA->MODER &= ~(3<<0);
+	
+	GPIOA->PUPDR &= ~(3<<0);
+	GPIOA->PUPDR |= (2<<0);
+	
+	while(1){
+		while(GPIOA->IDR & (1<<0)){
+			GPIOC->ODR |= (1<<13);
+			delay(1000);
+			GPIOC->ODR &= ~(1<<13);
+			delay(1000);
+		}
+		GPIOC->ODR &= ~(1<<13);
+	}
+}
+
+int main(void){
+	switch_led();
+	return 0;
+}

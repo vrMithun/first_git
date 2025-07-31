@@ -1,0 +1,56 @@
+#include "stm32f4xx.h"
+
+/*
+Each time the button is pressed and released, increment a counter
+
+Based on the counter value:
+
+If it's odd, turn ON LED1 (PC13), turn OFF LED2 (PB7)
+
+If it's even, turn ON LED2, turn OFF LED1
+
+The counter resets to 0 after reaching 10
+*/
+
+void delay_ms(int time){
+	for(uint32_t i=0;i<time*1000;i++){
+		__asm("NOP");
+	}
+}
+
+void odd_even(){
+	int count=0;
+	RCC->AHB1ENR |= (1<<1);
+	RCC->AHB1ENR |= (1<<2);
+	RCC->AHB1ENR |= (1<<0);
+	
+	GPIOA->MODER &= ~(3<<0);
+	GPIOC->MODER |= (1<<26);
+	GPIOB->MODER |= (1<<14);
+	
+	GPIOA->PUPDR &= ~(3<<0);
+	GPIOA->PUPDR |= (2<<0);
+	
+	while(1){
+		if(GPIOA->IDR & (1<<0)){
+			if(count==10) count=0;
+			else if(count%2==0){
+				GPIOC->ODR |= (1<<13);
+				GPIOB->ODR &= ~(1<<7);
+				while(GPIOA->IDR & (1<<0));
+				count++;
+			}
+			else{
+				GPIOB->ODR |= (1<<7);
+				GPIOC->ODR &= ~(1<<13);
+				while(GPIOA->IDR & (1<<0));
+				count++;
+			}
+		}
+	}
+}
+
+int main(void){
+	odd_even();
+	return 0;
+}

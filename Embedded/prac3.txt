@@ -1,0 +1,58 @@
+#include "stm32f4xx.h"
+
+void delay_ms(int time){
+	for(uint32_t i=0;i<time*1000;i++){
+		__asm("NOP");
+	}
+}
+
+void transaction(){
+	int deposite=0;
+	int withdraw=0;
+	
+	RCC->AHB1ENR |= (1<<0);
+	RCC->AHB1ENR |= (1<<1);
+	RCC->AHB1ENR |= (1<<2);
+	
+	GPIOA->MODER &= (~(3<<0) & ~(3<<12));
+	GPIOB->MODER |= (1<<18);
+	GPIOC->MODER |= (1<<26) | (1<<28);
+	
+	GPIOA->PUPDR &= (~(3<<0) & ~(3<<12));
+	GPIOA->PUPDR |= (2<<0) | (2<<12);
+	while(1){
+		int remain=deposite-withdraw;
+		if(GPIOA->IDR & (1<<6)){
+			deposite++;
+			while(GPIOA->IDR & (1<<6));
+			for(int i=0;i<deposite;i++){
+				GPIOC->ODR |= (1<<13);
+				delay_ms(500);
+				GPIOC->ODR &= ~(1<<13);
+				delay_ms(500);
+			}
+			GPIOC->ODR &= ~(1<<13);
+		}
+		else if(GPIOA->IDR & (1<<0)){
+			if(remain>0){
+				withdraw++;
+			}
+			while(GPIOA->IDR & (1<<0));
+			for(int i=0;i<withdraw;i++){
+				GPIOC->ODR |= (1<<14);
+				delay_ms(500);
+				GPIOC->ODR &= ~(1<<14);
+				delay_ms(500);
+			}
+			GPIOC->ODR &= ~(1<<14);
+		}
+		for(int i=0;i<remain;i++){
+			GPIOB->ODR |= (1<<9);
+			delay_ms(500);
+			GPIOB->ODR &= ~(1<<9);
+			delay_ms(500);
+		}
+		GPIOB->ODR &= ~(1<<9);
+		delay_ms(500);
+	}
+}
