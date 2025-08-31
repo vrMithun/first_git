@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Connections default="Local Server">
+    <Connection id="697d354d-1211-4742-ac2b-90d6592a0e3c" intermediateFileLocation="C:\Users\HP\AppData\Local\Temp\.workbenchIntermediateFiles" limitWorkingDatasetSize="false" maxWorkingDatasetSize="5" maxWorkingDatasetUnit="GB" name="Local" type="com.wpc.wps.connectionType.local" version="1.0">
+        <RootDirs>
+            <RootDir name="C:\" path="C:/"/>
+            <RootDir name="D:\" path="D:/"/>
+            <RootDir name="Home" path="C:/Users/HP"/>
+            <RootDir name="Workspace" path="D:/workspace/first_git/Altair"/>
+        </RootDirs>
+        <CustomBlockLocations/>
+        <Servers>
+            <Server ChangeWorkingDirectoryOnSubmit="false" autostart="true" hasSetStartupOptions="true" id="707df137-c42a-42c5-8861-b05f9dc4ead0" initialDirectory="${workspace_loc}" name="Local Server" setLocale="false" version="1.0">
+                <systemOption name="LOCALE" value="en_IN"/>
+                <systemOption name="BATCHWPDLOCKING" value="NOBATCHWPDLOCKING"/>
+                <systemOption name="DTRESET" value="DTRESET"/>
+            </Server>
+        </Servers>
+    </Connection>
+</Connections>

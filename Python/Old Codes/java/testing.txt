@@ -1,0 +1,27 @@
+As a first-year B.Tech student aspiring for the ISRO exam, it's important to build a strong foundation in your coursework alongside your exam preparation. Here's a suggested order for reading the recommended books while aligning with your academic progress:
+
+"Introduction to Algorithms" by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
+
+Start with this book to build a solid understanding of fundamental algorithms and data structures. It's essential to have a strong grasp of these concepts as they form the basis for many other topics in computer science.
+"Programming in C" by Stephen G. Kochan
+
+Once you have a good understanding of algorithms and data structures, delve into learning the C programming language. This book will help you grasp the basics of programming, including syntax, control structures, functions, and pointers.
+"Computer Organization and Design: The Hardware/Software Interface" by David A. Patterson and John L. Hennessy
+
+Next, move on to understanding computer architecture and organization. This book will provide insights into how hardware and software interact, which is essential knowledge for understanding system-level programming and optimization.
+"Operating System Concepts" by Abraham Silberschatz, Peter B. Galvin, and Greg Gagne
+
+Once you have a basic understanding of computer architecture, delve into operating system concepts. This book will introduce you to key concepts such as processes, memory management, file systems, and concurrency.
+"Computer Networks" by Andrew S. Tanenbaum and David J. Wetherall
+
+After gaining knowledge in operating systems, move on to studying computer networks. This book covers topics such as network architecture, protocols, TCP/IP, and network security, which are crucial for understanding communication systems.
+"Database System Concepts" by Abraham Silberschatz, Henry F. Korth, and S. Sudarshan
+
+Once you're familiar with computer networks, dive into database management systems. This book will introduce you to relational database concepts, SQL, transactions, and database design principles.
+"Software Engineering: A Practitioner's Approach" by Roger S. Pressman and Bruce Maxim
+
+As you progress, it's essential to understand software engineering principles. This book will cover topics such as software requirements, design, testing, and project management, which are crucial for developing large-scale software systems.
+"Introduction to the Theory of Computation" by Michael Sipser
+
+Finally, explore theoretical computer science concepts. This book covers automata theory, formal languages, computability, and complexity theory, which are important for understanding the theoretical foundations of computer science.
+Remember to pace yourself and align your study schedule with your academic coursework. It's also essential to supplement your reading with practice problems, programming exercises, and real-world applications to reinforce your learning. Additionally, stay updated with the latest developments in the field through online resources, journals, and research papers.

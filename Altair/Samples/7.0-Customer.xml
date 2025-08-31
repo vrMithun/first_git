@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!-- GENERIC xmltype -->
+<!-- example xml to demonstrate read into wps -->
+<TABLE>
+  <CUSTOMER>
+    <name>
+      John
+    </name>
+    <phone>
+      123456
+    </phone>
+  </CUSTOMER>
+  <CUSTOMER>
+    <name>
+      Jane
+    </name>
+    <phone>
+      100000
+    </phone>
+  </CUSTOMER>
+</TABLE>

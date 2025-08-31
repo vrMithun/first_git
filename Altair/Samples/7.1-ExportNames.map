@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" ?>
+<!-- 
+/*********************************************************************/
+/* (c) 2025 World Programming, an Altair Company.                    */
+/*                                                                   */
+/* This file illustrates a map file for use with the LIBNAME XML     */
+/* statement.                                                        */
+/*                                                                   */
+/* This file is for use with sample 7.1-ReadWriteXmlmap.sas          */
+/* importing and exporting XML using an XMLMAP.                      */
+/*                                                                   */
+/*********************************************************************/
+-->
+<SXLEMAP version="1.2">
+<!--
+ -->
+  <OUTPUT>
+    <TABLEREF name="NAMES" />
+  </OUTPUT>
+	<TABLE name="NAMES">
+		<TABLE-PATH syntax="XPATH">
+			/TABLE/customer
+		</TABLE-PATH>
+		<COLUMN name="NAME">
+			<PATH>
+      		  /TABLE/customer/name
+      	</PATH>
+			<TYPE>character</TYPE>
+			<DATATYPE>STRING</DATATYPE>
+			<LENGTH>20</LENGTH>
+		</COLUMN>
+		<COLUMN name="PHONE">
+			<PATH>
+      		  /TABLE/customer/phone
+      	</PATH>
+			<TYPE>numeric</TYPE>
+			<DATATYPE>integer</DATATYPE>
+		</COLUMN>
+</TABLE>
+</SXLEMAP>
+	

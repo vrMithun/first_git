@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" ?>
+<SXLEMAP version="1.2">
+<!-- 
+/*********************************************************************/
+/* (c) 2025 World Programming, an Altair Company.                    */
+/*                                                                   */
+/* This file illustrates a map file for use with the LIBNAME XML     */
+/* statement. The map file is used to generate customer data:        */
+/* - For each name, give their account type and town                 */
+/* - Read AccountType from the Account tag's type attribute          */
+/* - Save AccountType using retain="YES" for use with each customer. */
+/* - Read Town value from non-generic style xml location             */
+/*                                                                   */
+/* This file is for use with sample 7.1-ReadWriteXmlmap.sas          */
+/* importing and exporting XML using an XMLMAP.                      */
+/*                                                                   */
+/*********************************************************************/
+-->         
+	<TABLE name="CustDetails">
+		<TABLE-PATH syntax="XPATH">
+			/Customers/Account/customer
+		</TABLE-PATH>
+		<COLUMN name="NAME">
+			<PATH>
+      		  /Customers/Account/customer/name
+      	</PATH>
+			<TYPE>character</TYPE>
+			<DATATYPE>STRING</DATATYPE>
+			<LENGTH>20</LENGTH>
+		</COLUMN>
+		<COLUMN name="AccountType" retain="YES">
+			<PATH>
+      		  /Customers/Account/@type
+      	</PATH>
+			<TYPE>character</TYPE>
+			<DATATYPE>STRING</DATATYPE>
+			<LENGTH>20</LENGTH>
+		</COLUMN>
+		<COLUMN name="Town">
+			<PATH>
+      		  /Customers/Account/customer/address/town
+      	</PATH>
+			<TYPE>character</TYPE>
+			<DATATYPE>STRING</DATATYPE>
+			<LENGTH>20</LENGTH>
+		</COLUMN>
+</TABLE>
+</SXLEMAP>
+	

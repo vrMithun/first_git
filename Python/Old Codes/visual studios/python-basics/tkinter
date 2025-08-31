@@ -1,0 +1,13 @@
+from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow
+
+app = QApplication([])
+
+window = QMainWindow()
+
+window.setWindowTitle("Hello, PyQt!")
+
+label= QLabel("Welcome to PyQt!")
+
+window.setCentralWidget(label)
+
+window.show()

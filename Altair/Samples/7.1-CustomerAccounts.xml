@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Customers>
+  <Account type="Credit">
+	  <customer>
+		 <name id="1">
+			John
+		 </name>
+		 <phone>
+			123456
+		 </phone>
+		 <address>
+			<number>1</number>
+			<road>High Street</road>
+			<town>Anytown</town>
+			<postcode>POST CODE</postcode>
+		 </address>
+	  </customer>
+	  <customer>
+		 <name id="2">
+			Jane
+		 </name>
+		 <phone>
+			10000
+		 </phone>
+		 <address>
+			<number>6</number>
+			<road>Busy Road</road>
+			<town>Busyton</town>
+			<postcode>POST CODE2</postcode>
+		 </address>
+	  </customer>
+	</Account>
+	<Account type="Cash">
+	  <customer>
+		 <name id="101">
+			James
+		 </name>
+		 <phone>
+			987654
+		 </phone>
+		 <address>
+			<number>10</number>
+			<road>The Lane</road>
+			<town>Sleepy Village</town>
+			<postcode>POST CODE3</postcode>
+		 </address>
+	  </customer>	
+	</Account>
+</Customers>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<TABLE>
+   <CUSTOMER>
+      <Name> John </Name>
+      <Phone> 123456 </Phone>
+   </CUSTOMER>
+   <CUSTOMER>
+      <Name> Jane </Name>
+      <Phone> 100000 </Phone>
+   </CUSTOMER>
+   <CUSTOMER>
+      <Name> James </Name>
+      <Phone> 987654 </Phone>
+   </CUSTOMER>
+</TABLE>

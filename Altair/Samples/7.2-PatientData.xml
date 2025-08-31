@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!-- 
+    Clinical Data Interchange Standards Consortium (CDISC)
+    Operational Data Model (ODM) for clinical data interchange
+ -->
+<ODM
+ xmlns="http://www.cdisc.org/ns/odm/v1.2"
+ xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.2 ODM1-2-0.xsd"
+ ODMVersion="1.2"
+ FileOID="000-000-000"
+ FileType="Snapshot"
+ Description="CDISC ODM version 1.2.0 format"
+ Granularity="All"
+ PriorFileOID="000-000-000"
+ AsOfDateTime="2011-11-22T14:14:03"
+ CreationDateTime="2011-11-22T14:14:03"
+ SourceSystem="WPS XML ENGINE 3.0"
+ SourceSystemVersion="03.00.00.00.020011"> 
+
+   <Study OID="Studyid">
+
+      <GlobalVariables>
+         <StudyName>Study Name</StudyName>
+         <StudyDescription>Study Description</StudyDescription>
+         <ProtocolName>Protocol Name</ProtocolName>
+      </GlobalVariables>
+
+      <BasicDefinitions />
+
+      <MetaDataVersion OID="MDV1.0" Name="MDV1.0">
+         <Protocol>
+            <StudyEventRef StudyEventOID="1" OrderNumber="1" Mandatory="Yes" />
+         </Protocol>
+
+         <StudyEventDef OID="1" Name="Study Event Definition" Repeating="Yes" Type="Common">
+            <FormRef FormOID="FORM.formid" OrderNumber="1" Mandatory="No" />
+         </StudyEventDef>
+
+         <FormDef OID="FORM.formid" Name="Form Definition" Repeating="Yes">
+            <ItemGroupRef ItemGroupOID="PD" Mandatory="No" />
+         </FormDef>
+
+         <ItemGroupDef OID="PD" Name="PD" SASDatasetName="PD" Repeating="Yes" Comment="PD">
+            <ItemRef ItemOID="ID.name" OrderNumber="1" Mandatory="No" />
+            <ItemRef ItemOID="ID.age" OrderNumber="2" Mandatory="No" />
+         </ItemGroupDef>
+
+         <ItemDef OID="ID.name" SASFieldName="name" Name="name" DataType="text" Length="8" />
+         <ItemDef OID="ID.age" SASFieldName="age" Name="age" DataType="float" Length="12" SignificantDigits="2" />
+
+      </MetaDataVersion>
+   </Study>
+
+   <AdminData />
+
+   <ClinicalData StudyOID="Studyid" MetaDataVersionOID="MDV1.0">
+      <SubjectData SubjectKey="1">
+         <StudyEventData StudyEventOID="1" StudyEventRepeatKey="1">
+            <FormData FormOID="FORM.formid" FormRepeatKey="1">
+               <ItemGroupData ItemGroupOID="PD" ItemGroupRepeatKey="1">
+                  <ItemData ItemOID="ID.name" Value="John" />
+                  <ItemData ItemOID="ID.age" Value="21" />
+               </ItemGroupData>
+               <ItemGroupData ItemGroupOID="PD" ItemGroupRepeatKey="2">
+                  <ItemData ItemOID="ID.name" Value="Jane" />
+                  <ItemData ItemOID="ID.age" Value="23" />
+               </ItemGroupData>
+               <ItemGroupData ItemGroupOID="PD" ItemGroupRepeatKey="3">
+                  <ItemData ItemOID="ID.name" Value="James" />
+                  <ItemData ItemOID="ID.age" Value="33" />
+               </ItemGroupData>
+            </FormData>
+         </StudyEventData>
+      </SubjectData>
+   </ClinicalData>
+</ODM>

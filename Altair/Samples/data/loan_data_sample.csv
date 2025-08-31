@@ -1,0 +1,253 @@
+CustomerId,Age,Employment_Type,Sector,Gender,Part_Of_UK,Income,Native_Country,Loan_Start_Date,Loan_End_Date,Loan_Period,Loan_Amount,Other_Debt,Housing_Situation,Has_CCJ,Default
+2931,37,Private,Engineering,Female,East Anglia,12500,UK,21703,22475,772,11400,0,1,0,0
+4963,30,Private,Agriculture,Female,South East,36700,UK,20806,20901,95,10000,0,1,0,0
+11698,17,Private,Media,Female,North West,22800,UK,21036,21708,672,7000,0,1,1,0
+12210,42,Private,Retail,Male,South East,24600,UK,20570,21194,624,9800,0,1,0,0
+13452,15,Unemployed,N/A,Male,West Midlands,0,UK,20859,21743,884,8300,0,1,0,1
+20134,20,Public,Military,Male,Northern Ireland,23100,UK,21516,22193,677,8700,0,1,0,0
+20889,13,Private,Engineering,Male,Wales,15900,UK,21512,22071,559,9200,0,1,0,0
+24778,55,Private,Healthcare,Female,Scotland,11500,UK,21352,21602,250,11200,0,1,0,0
+25188,19,Unemployed,N/A,Female,London,0,UK,21271,21778,507,8700,10027,0,0,1
+27091,27,Private,Healthcare,Male,London,24000,UK,20964,21396,432,7800,0,0,0,0
+34873,48,Private,Engineering,Male,North West,15100,UK,20799,20898,99,13500,0,1,0,0
+36870,36,Private,Technology,Male,North West,11000,Other,21628,22395,767,9300,0,1,0,0
+37677,48,Private,Engineering,Male,South East,24500,UK,21589,22147,558,13900,0,1,0,0
+38697,23,Private,Technology,Female,London,21800,UK,21249,21981,732,10700,8624,0,0,0
+39142,26,Private,Engineering,Female,North West,29300,UK,21475,22330,855,6900,0,1,0,0
+39625,31,Private,Agriculture,Female,South East,29100,UK,20903,21361,458,12500,0,1,0,0
+41017,26,Private,Retail,Male,North West,22100,UK,20960,21145,185,11300,0,1,0,0
+41701,30,Private,Engineering,Female,London,41600,UK,21118,21824,706,11800,0,0,0,0
+42320,32,Private,Agriculture,Male,South East,30400,UK,20968,21258,290,8000,0,1,0,0
+42991,25,Private,Finance,Male,London,23600,UK,20686,21262,576,10500,0,0,0,0
+43216,36,Private,Retail,Female,London,19300,UK,20979,21891,912,8800,0,0,0,0
+47760,8,Public,Law Enforcement,Male,South East,26100,UK,20603,21194,591,12900,0,1,0,0
+50957,33,Private,Engineering,Female,Midlands,15700,UK,20984,21789,805,9000,0,1,0,0
+57217,28,Private,Healthcare,Female,South East,29500,UK,21537,22303,766,11200,0,1,0,0
+57761,31,Private,Law,Female,West Midlands,23700,UK,20846,21148,302,13300,0,1,0,0
+60647,44,Private,Healthcare,Male,Scotland,42400,UK,21051,21422,371,9700,0,1,0,0
+63694,53,Public,Military,Male,West Midlands,21400,UK,21458,22157,699,9300,0,1,0,0
+64387,31,Private,Retail,Male,London,25100,UK,20880,21173,293,13000,0,0,0,0
+65896,22,Private,Finance,Female,West Midlands,8900,UK,21015,21788,773,9300,0,1,0,0
+66111,32,Private,Finance,Male,South East,32700,UK,21368,21862,494,10600,0,1,0,0
+68284,24,Unemployed,N/A,Female,London,0,UK,21435,21837,402,8900,14444,0,0,1
+70826,44,Private,Retail,Male,East Anglia,15800,UK,21366,21490,124,9700,0,1,0,0
+76700,36,Private,Healthcare,Female,South East,20000,UK,21395,21779,384,7000,0,1,0,0
+80321,53,Private,Agriculture,Male,South East,13100,UK,21464,21853,389,10500,0,1,0,0
+80902,34,Private,Healthcare,Female,South East,21000,UK,20920,21595,675,9100,0,1,0,0
+81139,37,Private,Technology,Female,London,29600,UK,21436,22322,886,12700,0,0,0,0
+84029,20,Unemployed,N/A,Male,North West,0,UK,20980,21370,390,10900,0,1,0,0
+86578,18,Public,Military,Male,North East,17500,UK,20728,21216,488,7600,0,1,0,0
+87249,29,Private,Law,Female,South East,26400,UK,20778,21497,719,10300,0,1,0,0
+87617,38,Public,Healthcare,Female,North West,26700,UK,20697,21058,361,14200,0,1,0,0
+92159,19,Public,Infrastructure,Male,East Anglia,18600,UK,21476,22171,695,7700,0,1,0,1
+107319,21,Private,Retail,Male,South East,35600,UK,20844,21429,585,6500,0,1,0,0
+109166,26,Private,Agriculture,Female,London,32800,UK,21023,21080,57,8200,0,0,0,0
+113921,25,Volunteer,Healthcare,Male,North West,0,UK,20828,21537,709,11900,1417,1,0,0
+117547,21,Private,Law,Female,South East,34700,UK,21013,21883,870,10200,0,1,0,0
+122285,31,Private,Healthcare,Female,West Midlands,11500,UK,20735,21448,713,10100,0,1,0,0
+123523,50,Private,Technology,Male,London,13100,UK,20810,21385,575,6700,6366,0,0,0
+124365,23,Public,Law Enforcement,Male,London,25800,UK,21653,22534,881,8800,0,0,0,0
+125896,21,Private,Retail,Male,London,28200,UK,21630,22616,986,8900,0,0,0,0
+127768,45,Volunteer,Finance,Male,South East,0,UK,20799,21558,759,8900,0,1,0,0
+129126,52,Private,Finance,Male,London,13700,Italy,20815,21147,332,11500,0,0,0,0
+129291,32,Private,Technology,Female,Midlands,15100,UK,20850,20974,124,8300,0,1,0,0
+132021,41,Private,Healthcare,Male,South West,30700,UK,20991,21554,563,7600,0,1,0,0
+132108,33,Private,Engineering,Male,South West,21900,UK,21451,22160,709,6300,0,1,0,0
+134818,55,Private,Agriculture,Male,East Anglia,8900,UK,21114,21715,601,9800,0,1,0,0
+139045,32,Private,Law,Female,South East,22400,UK,21262,22214,952,8000,0,1,0,0
+144124,15,Private,Healthcare,Male,London,25200,UK,21324,21625,301,8000,11804,0,3,0
+145816,30,Self-Employed,Technology,Male,London,27300,UK,21078,21877,799,10200,0,0,0,0
+148113,25,Private,Agriculture,Male,London,25100,UK,21299,22170,871,6900,0,0,0,0
+148802,27,Private,Technology,Female,Midlands,33500,UK,20604,20847,243,8300,0,1,0,0
+150142,31,Private,Agriculture,Male,South East,36300,UK,20680,21389,709,13200,0,1,0,0
+151272,20,Public,Infrastructure,Female,London,33900,UK,20581,21061,480,8000,0,0,0,0
+154118,17,Public,Healthcare,Female,North East,22000,UK,20929,21297,368,8300,0,1,0,0
+155451,18,Private,Media,Female,London,34400,UK,21439,21813,374,9900,0,0,0,0
+156955,30,Private,Engineering,Female,South East,26000,UK,20965,21562,597,8100,0,1,0,0
+158060,24,Private,Law,Male,South East,26800,UK,21421,21998,577,9100,0,1,0,0
+161883,24,Unemployed,N/A,Female,South East,0,UK,21508,22292,784,9800,0,1,0,0
+162819,42,Private,Retail,Female,London,33200,UK,20644,21369,725,11900,0,0,0,0
+162855,23,Unemployed,N/A,Female,South East,0,UK,21542,22081,539,7000,0,1,0,0
+165510,18,Private,Technology,Male,London,36900,UK,20638,21575,937,10800,0,0,0,0
+166990,29,Private,Agriculture,Female,Scotland,25100,UK,20719,21216,497,11000,0,1,0,0
+168626,35,Private,Finance,Male,West Midlands,14900,UK,21581,21941,360,11400,0,1,0,0
+171684,27,Private,Healthcare,Female,Scotland,26500,UK,20660,21415,755,9800,0,1,0,0
+174470,33,Private,Healthcare,Male,London,29200,UK,21067,21349,282,9900,0,0,0,0
+176399,22,Public,Infrastructure,Male,West Midlands,20500,UK,20849,21300,451,8800,0,1,0,0
+180742,33,Private,Finance,Male,North West,29800,UK,21302,22031,729,14900,0,1,0,0
+182903,38,Private,Healthcare,Male,South West,33000,UK,20968,21677,709,11500,0,1,0,0
+183315,14,Private,Law,Male,London,31200,UK,21561,21842,281,10400,0,0,0,0
+185701,27,Private,Finance,Male,South East,38300,UK,21201,21500,299,10300,0,1,0,0
+185869,20,Unemployed,N/A,Male,North West,0,UK,21401,21811,410,9500,710,1,0,0
+185873,48,Private,Law,Male,South West,42900,UK,20555,20786,231,11700,0,1,0,0
+187901,47,Public,Education,Male,South East,30100,UK,20710,21422,712,8600,0,1,0,0
+192923,61,Private,Technology,Female,London,14300,UK,20962,21277,315,11100,7760,0,0,0
+193426,19,Public,Law Enforcement,Female,North West,26500,UK,21095,21600,505,6500,0,1,0,0
+194034,14,Public,Education,Male,London,28500,UK,21010,21141,131,10900,11390,0,0,0
+194498,24,Public,Law Enforcement,Female,North West,26600,UK,20487,20943,456,12300,0,1,0,0
+196391,18,Private,Engineering,Male,West Midlands,22900,UK,20798,21084,286,11300,0,1,0,0
+197256,33,Self-Employed,Finance,Female,East Anglia,21200,UK,20799,21233,434,11300,0,1,0,0
+198450,34,Private,Technology,Male,North West,23800,UK,21109,21539,430,10100,0,1,0,0
+198622,50,Private,Finance,Female,South East,13300,UK,20599,21253,654,12000,0,1,0,0
+199292,41,Private,Agriculture,Male,Midlands,20300,UK,21527,21969,442,11600,0,1,0,0
+200434,18,Public,Infrastructure,Male,London,27100,UK,21216,21275,59,6600,0,0,0,0
+203929,43,Volunteer,Technology,Male,East Anglia,0,UK,21289,21637,348,13800,0,1,0,0
+204736,30,Private,Law,Female,South East,11100,UK,21052,21348,296,7200,0,1,0,0
+204752,18,Private,Retail,Female,East Anglia,27300,UK,20983,21437,454,10100,0,1,0,0
+206325,18,Private,Technology,Female,London,23500,UK,21555,21958,403,10700,0,0,0,0
+207861,16,Private,Healthcare,Female,South East,34800,UK,21212,22012,800,11600,0,1,0,0
+208626,27,Private,Engineering,Male,Scotland,26600,UK,21179,21541,362,7500,0,1,0,0
+210334,50,Private,Healthcare,Female,South East,18200,UK,20930,21300,370,12100,9328,1,0,0
+211085,44,Public,Infrastructure,Female,London,30300,UK,21124,21875,751,7300,0,0,0,0
+212070,21,Public,Education,Female,London,29800,UK,21427,21662,235,9500,0,0,0,0
+212625,55,Private,Engineering,Female,West Midlands,10500,UK,21579,21963,384,9100,0,1,0,0
+212638,32,Private,Healthcare,Female,South West,19100,UK,20702,21126,424,9800,0,1,0,0
+213759,24,Unemployed,N/A,Male,South East,0,UK,21684,22461,777,8700,0,1,0,0
+216171,36,Private,Finance,Male,South West,30500,UK,20762,21386,624,10600,0,1,0,0
+216245,46,Private,Finance,Male,Midlands,15500,UK,20478,21134,656,5500,0,1,0,0
+218143,32,Private,Technology,Female,North West,17100,UK,20748,21487,739,6300,0,1,0,0
+219146,39,Private,Retail,Male,North West,36300,UK,20723,21177,454,7800,0,1,0,0
+220458,60,Private,Law,Male,Midlands,9500,UK,21104,21451,347,10800,0,1,0,0
+223351,38,Private,Healthcare,Male,South East,22500,UK,21393,21898,505,11100,0,1,0,0
+225280,27,Self-Employed,Agriculture,Male,London,26200,UK,21316,21618,302,7700,0,0,0,0
+226326,13,Private,Finance,Female,Scotland,27300,UK,21604,21701,97,6800,0,1,0,0
+229438,25,Private,Law,Female,West Midlands,20000,UK,21281,21709,428,9100,0,1,0,0
+231538,30,Private,Technology,Male,London,29100,UK,21206,21607,401,7300,0,0,0,0
+231759,28,Private,Technology,Female,South East,18600,UK,21169,21945,776,7200,0,1,0,0
+232232,21,Private,Agriculture,Male,South West,28000,UK,20872,21891,1019,9500,0,1,0,0
+240329,22,Unemployed,N/A,Female,South East,0,UK,20744,21153,409,8100,0,1,0,0
+240546,34,Private,Finance,Female,London,40500,UK,21541,22032,491,11200,0,0,0,0
+242224,24,Public,Healthcare,Female,South East,32100,UK,20741,21074,333,8200,0,1,0,0
+244523,16,Public,Military,Female,South West,22800,UK,21564,21765,201,9900,0,1,0,0
+247725,23,Public,Infrastructure,Male,Midlands,18200,UK,20851,21271,420,14000,0,1,0,0
+253151,53,Private,Finance,Female,London,15400,UK,21618,21873,255,11800,6850,0,0,0
+258076,27,Private,Engineering,Female,West Midlands,19100,UK,21696,22431,735,8300,0,1,0,0
+258252,20,Public,Education,Male,North West,24000,UK,21717,21908,191,11100,0,1,0,0
+259202,15,Private,Finance,Male,London,28500,UK,21190,21784,594,8000,0,0,0,0
+262063,28,Public,Military,Male,North West,22200,UK,20494,20749,255,12600,0,1,0,0
+263987,40,Private,Retail,Male,West Midlands,37100,UK,21529,22079,550,8000,0,1,0,0
+265688,25,Private,Agriculture,Female,East Anglia,21800,UK,21218,21970,752,10100,0,1,0,0
+266431,22,Public,Law Enforcement,Male,West Midlands,20400,UK,20489,21051,562,10800,0,1,0,0
+267998,25,Public,Law Enforcement,Female,North West,28700,UK,20504,20844,340,12300,0,1,0,0
+269998,16,Unemployed,N/A,Female,London,0,UK,20570,20915,345,11500,16963,0,0,0
+271811,36,Private,Media,Male,Scotland,13300,UK,21182,21796,614,8300,0,1,0,0
+272674,27,Self-Employed,Healthcare,Female,South West,23700,UK,21220,22216,996,13400,0,1,0,0
+274162,32,Private,Agriculture,Female,South East,12600,UK,21315,21625,310,5700,0,1,0,0
+274893,29,Private,Healthcare,Female,North West,21000,UK,21425,21814,389,8900,0,1,0,0
+274950,35,Private,Technology,Female,West Midlands,13800,UK,20871,21228,357,8800,0,1,0,0
+275894,22,Unemployed,N/A,Male,South East,0,UK,20976,21804,828,8200,0,1,0,0
+276645,21,Unemployed,N/A,Female,West Midlands,0,UK,20990,21352,362,7900,0,1,0,1
+277247,60,Private,Agriculture,Female,West Midlands,8800,UK,21376,22079,703,10300,0,1,0,0
+277890,20,Private,Law,Male,London,24700,UK,21238,21720,482,7600,0,0,0,0
+279063,25,Private,Healthcare,Female,Midlands,16300,UK,21601,22281,680,7000,0,1,0,0
+287694,41,Private,Engineering,Female,South East,28000,UK,21173,21767,594,12100,0,1,0,0
+288046,39,Private,Engineering,Male,London,49600,UK,21540,22100,560,10700,0,0,0,0
+288800,35,Private,Agriculture,Male,London,39800,UK,21148,21494,346,13500,0,0,0,0
+289290,18,Public,Military,Female,Northern Ireland,19800,UK,21092,22195,1103,9100,0,1,0,0
+293391,21,Unemployed,N/A,Male,South East,0,UK,20708,21465,757,12000,5158,1,0,0
+296923,49,Private,Technology,Female,London,28700,UK,21476,21875,399,5600,7501,0,0,0
+297678,20,Private,Healthcare,Female,West Midlands,21500,UK,21544,22371,827,9500,0,1,0,0
+302267,38,Private,Retail,Male,North West,28000,UK,20954,21487,533,9200,0,1,0,0
+303157,63,Private,Media,Male,South East,12300,UK,21451,22191,740,13500,0,1,0,0
+306283,41,Private,Media,Male,South East,13900,UK,21004,21572,568,9200,0,1,0,0
+307279,27,Private,Finance,Female,South East,41400,UK,21367,21553,186,13700,0,1,0,0
+311509,21,Unemployed,N/A,Female,South West,0,UK,21146,21643,497,13300,0,1,0,0
+311860,44,Private,Finance,Female,Scotland,52700,UK,21682,22349,667,7700,0,1,0,0
+316080,28,Private,Finance,Female,South East,29300,Other,21304,21943,639,11400,0,1,0,0
+316396,52,Private,Healthcare,Female,East Anglia,10200,UK,21464,22128,664,6600,0,1,0,0
+316545,27,Private,Agriculture,Male,East Anglia,10400,UK,20759,21408,649,14200,0,1,0,1
+322016,16,Public,Infrastructure,Male,North West,25500,UK,21639,22296,657,10200,0,1,0,0
+322233,28,Private,Retail,Female,North West,25700,UK,20585,21531,946,10700,0,1,0,0
+323328,22,Unemployed,N/A,Male,London,0,UK,20571,20867,296,9300,1901,0,0,1
+326166,37,Private,Finance,Male,North West,50100,UK,20774,21160,386,14000,0,1,0,0
+326923,37,Private,Finance,Male,Midlands,14100,UK,21304,21786,482,9500,0,1,0,0
+328720,56,Private,Agriculture,Male,North West,14500,UK,21519,21988,469,8500,0,1,0,0
+330648,33,Private,Finance,Female,North West,29400,UK,20898,21586,688,8200,0,1,0,0
+331992,24,Private,Media,Female,London,32800,UK,20835,21163,328,9700,0,0,0,0
+335986,29,Private,Engineering,Male,London,24200,UK,21252,21571,319,8800,0,0,0,0
+337180,36,Private,Agriculture,Male,South East,29300,UK,20791,20996,205,12600,0,1,0,0
+339507,23,Private,Retail,Female,East Anglia,16100,UK,20835,21282,447,11500,0,1,0,0
+340951,23,Unemployed,N/A,Female,West Midlands,0,UK,20737,21232,495,10200,0,1,0,0
+344354,28,Private,Finance,Male,London,30100,UK,21550,22067,517,12000,0,0,0,0
+345649,28,Private,Agriculture,Female,East Anglia,28600,UK,21307,21462,155,10500,0,1,0,0
+349002,18,Unemployed,N/A,Female,London,0,UK,21129,21627,498,10800,4801,0,0,0
+350982,37,Private,Media,Male,West Midlands,16600,UK,21016,21337,321,9200,0,1,0,0
+351443,24,Private,Law,Male,London,34700,UK,20801,21451,650,12000,0,0,0,0
+353603,30,Private,Healthcare,Male,Midlands,16600,UK,21509,22190,681,10500,0,1,0,0
+356898,40,Private,Finance,Female,London,27300,UK,21456,21699,243,10600,0,0,0,0
+359806,26,Private,Healthcare,Male,London,36100,UK,21018,21560,542,7700,0,0,0,0
+363017,60,Private,Media,Male,London,16500,UK,21340,21767,427,8200,4137,0,0,0
+365534,30,Private,Agriculture,Male,South East,27800,UK,21060,21163,103,5700,0,1,0,0
+371094,23,Public,Law Enforcement,Female,West Midlands,21100,UK,21210,21468,258,10000,0,1,0,0
+377355,60,Private,Finance,Female,London,14700,UK,20836,20950,114,9600,8321,0,0,1
+382022,35,Private,Law,Male,North West,22200,UK,21080,21114,34,10000,0,1,0,0
+384334,23,Public,Infrastructure,Female,South East,29400,UK,21547,22135,588,8500,0,1,0,0
+384399,33,Volunteer,Technology,Female,Wales,0,UK,20720,21179,459,10000,0,1,0,0
+385769,33,Private,Law,Male,South East,23600,UK,20882,21369,487,10400,0,1,0,0
+386981,36,Private,Media,Female,Midlands,20100,UK,21542,21775,233,8500,0,1,0,0
+387618,30,Private,Law,Female,South East,24100,UK,20882,21673,791,8000,0,1,0,0
+388223,27,Private,Finance,Female,North West,27300,UK,21568,22197,629,8800,0,1,0,0
+389150,47,Private,Healthcare,Male,North West,13800,UK,21698,22317,619,7700,0,1,0,0
+391376,44,Private,Law,Male,South East,12400,UK,20852,20899,47,13200,0,1,0,0
+391541,32,Private,Law,Female,South East,36000,UK,20632,21232,600,10100,0,1,0,0
+394041,38,Private,Agriculture,Female,South East,33700,UK,21658,22094,436,11400,0,1,0,0
+394196,29,Private,Law,Female,South West,24900,UK,20522,20705,183,9400,0,1,0,0
+395489,47,Private,Healthcare,Male,London,26700,UK,21636,22195,559,14700,5472,0,0,0
+407867,41,Private,Engineering,Male,West Midlands,16300,UK,21325,21449,124,9400,0,1,0,0
+409310,55,Private,Finance,Male,Scotland,13600,UK,20890,21497,607,10300,0,1,0,0
+412772,28,Private,Engineering,Female,South East,34400,UK,20961,21357,396,13800,0,1,0,0
+414446,27,Private,Retail,Male,London,25800,UK,20821,20957,136,13700,0,0,0,0
+416288,26,Private,Technology,Female,North West,19700,UK,21260,21895,635,14200,0,1,0,0
+417156,30,Private,Engineering,Female,Wales,23000,UK,21347,22078,731,10200,0,1,0,0
+420113,42,Private,Media,Male,South East,63800,UK,21239,21786,547,9300,0,1,0,0
+420114,36,Private,Engineering,Female,South West,12000,UK,20792,21126,334,6800,0,1,0,0
+421846,41,Private,Law,Male,West Midlands,22500,UK,21104,21513,409,7900,0,1,0,0
+422829,45,Private,Healthcare,Female,West Midlands,23300,UK,21224,21297,73,11200,0,1,0,0
+423878,43,Volunteer,Education,Male,East Anglia,0,UK,20960,21493,533,10200,6186,1,0,0
+429055,39,Private,Retail,Male,North West,16200,UK,21347,21675,328,10000,0,1,0,0
+429132,17,Private,Law,Male,South East,28600,UK,20931,21462,531,9500,0,1,0,0
+430186,49,Private,Law,Male,South West,19000,UK,20959,21270,311,9300,0,1,0,0
+432706,34,Private,Finance,Male,Midlands,19600,UK,20702,21277,575,6500,0,1,0,0
+432989,37,Volunteer,Technology,Male,North West,0,UK,20581,21372,791,10600,0,1,0,0
+434896,28,Private,Law,Male,East Anglia,21000,UK,21379,21889,510,13000,0,1,0,0
+437215,24,Unemployed,N/A,Female,London,0,UK,20460,20863,403,11400,3055,0,0,1
+437769,29,Private,Law,Male,London,24600,UK,21007,21618,611,11300,0,0,0,0
+441777,28,Private,Finance,Female,South West,20200,UK,21079,21830,751,10900,0,1,0,0
+443888,47,Private,Finance,Male,London,25800,UK,20900,21346,446,7600,0,0,0,0
+445453,36,Private,Agriculture,Female,London,47900,UK,21265,21846,581,8800,0,0,0,0
+445870,31,Private,Media,Male,West Midlands,36800,UK,20948,21450,502,11000,0,1,0,0
+448022,32,Private,Media,Female,West Midlands,24600,UK,21355,22045,690,7700,0,1,0,0
+451069,29,Private,Technology,Male,Midlands,21300,UK,20634,20747,113,7500,0,1,0,0
+451589,22,Unemployed,N/A,Male,Wales,0,UK,20590,21109,519,11100,0,1,0,0
+451720,24,Public,Law Enforcement,Male,South West,25400,UK,20517,21254,737,9500,0,1,0,0
+453598,30,Private,Retail,Male,Northern Ireland,15800,UK,21599,21733,134,5500,0,1,0,0
+455642,39,Private,Media,Male,Midlands,11300,UK,20459,20941,482,10800,0,1,0,0
+458000,19,Unemployed,N/A,Male,North West,0,UK,20737,21536,799,10300,0,1,0,0
+459103,29,Private,Engineering,Female,East Anglia,31000,UK,21541,22208,667,6200,0,1,0,0
+460190,22,Public,Military,Male,South West,28600,UK,20656,21328,672,13000,0,1,0,0
+462336,20,Unemployed,N/A,Female,North West,0,UK,20649,21109,460,12000,0,1,0,0
+464742,21,Public,Infrastructure,Female,South East,32400,UK,21228,21784,556,9000,0,1,0,0
+464753,39,Private,Media,Female,Midlands,18600,UK,20985,21125,140,10000,0,1,0,0
+467177,24,Unemployed,N/A,Male,London,0,UK,21000,21668,668,9000,12452,0,2,0
+468405,47,Private,Law,Female,Scotland,23100,UK,20487,21345,858,9000,0,1,0,0
+469430,23,Private,Healthcare,Female,Scotland,32500,UK,20945,21600,655,10700,0,1,0,0
+469785,36,Private,Technology,Female,London,44200,UK,21362,22381,1019,14000,0,0,0,0
+470640,37,Self-Employed,Education,Female,South East,26100,UK,20865,21593,728,9400,0,1,0,0
+475159,24,Private,Retail,Male,South East,31900,UK,20639,21595,956,8400,0,1,0,0
+475324,32,Private,Retail,Female,North West,42400,UK,21131,21675,544,11000,0,1,0,0
+477373,36,Private,Engineering,Female,North West,20900,UK,21306,21310,4,11300,0,1,0,0
+477674,13,Public,Infrastructure,Male,North West,24200,UK,21543,21921,378,11300,0,1,0,0
+477754,43,Private,Retail,Male,East Anglia,34000,UK,21632,22273,641,14900,0,1,0,0
+482141,35,Public,Law Enforcement,Female,West Midlands,19900,UK,21492,22088,596,8800,0,1,0,0
+482190,34,Private,Law,Male,South East,30200,UK,21380,21824,444,10200,0,1,0,0
+483498,48,Private,Finance,Male,South East,47400,UK,21413,22563,1150,10500,0,1,0,0
+484525,38,Private,Agriculture,Female,North West,12500,UK,21586,22296,710,9200,0,1,0,0
+486868,30,Public,Military,Female,North West,25600,UK,20972,21068,96,9400,0,1,0,0
+489377,22,Unemployed,N/A,Male,North West,0,UK,20794,21837,1043,13300,0,1,0,1
+492015,42,Private,Retail,Female,North West,24200,UK,20797,21824,1027,9700,0,1,0,0
+493730,22,Unemployed,N/A,Female,West Midlands,0,UK,21694,22517,823,9500,0,1,0,0
+494427,22,Unemployed,N/A,Male,West Midlands,0,UK,20901,21091,190,12200,0,1,0,0
+494433,30,Private,Engineering,Male,South East,18000,UK,21550,22627,1077,10400,0,1,0,0
+495114,34,Volunteer,Education,Female,London,0,UK,20937,21297,360,12200,3478,0,0,0
+498458,40,Private,Law,Female,London,16200,UK,21181,21277,96,8800,4836,0,0,0
+499146,28,Public,Infrastructure,Female,North West,26200,UK,20898,21200,302,11900,0,1,0,0
