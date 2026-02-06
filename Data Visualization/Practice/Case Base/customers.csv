@@ -1,0 +1,21 @@
+CustomerID,CustomerName,Segment,Gender,Age,City,Country
+C001,Rahul Menon,Corporate,Male,28,Mumbai,India
+C002,Priya Sharma,Home Office,Female,34,Delhi,India
+C003,John Dsouza,Consumer,Male,40,Kochi,India
+C004,Meena Raj,Consumer,Female,29,Pune,India
+C005,Vikram Iyer,Corporate,Male,31,Chennai,India
+C006,Ravi Nair,Corporate,Male,35,Hyderabad,India
+C007,Asha Verma,Home Office,Female,27,Bangalore,India
+C008,Anil Kumar,Consumer,Male,36,Trivandrum,India
+C009,Sneha Patil,Consumer,Female,30,Kolkata,India
+C010,Rohit Sharma,Corporate,Male,33,Jaipur,India
+C011,Kavya Krishnan,Corporate,Female,25,Indore,India
+C012,Deepak Singh,Home Office,Male,32,Chandigarh,India
+C013,Neha Joshi,Consumer,Female,29,Ahmedabad,India
+C014,Manoj Pillai,Corporate,Male,41,Nagpur,India
+C015,Pooja Rao,Consumer,Female,26,Lucknow,India
+C016,Kiran Kumar,Home Office,Male,28,Coimbatore,India
+C017,Lakshmi Devi,Consumer,Female,39,Visakhapatnam,India
+C018,Harish Reddy,Corporate,Male,37,Surat,India
+C019,Rekha Nair,Consumer,Female,31,Bhopal,India
+C020,Amit Patel,Home Office,Male,30,Patna,India

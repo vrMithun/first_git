@@ -23,3 +23,11 @@ def choose_operation(op):
         return add
     return sub
 
+
+def generator_function(n): 
+    for i in range(n): 
+        yield i**2
+my_generator = generator_function(3) 
+print(next(my_generator)) 
+print(next(my_generator))
+

@@ -283,3 +283,138 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY com.wpl.workbench.cache.customblocks.InstallationCustomBlockRepository 2 0 2025-08-30 13:35:35.297
 !MESSAGE [WARN ] [Worker-11: Refreshing custom block definitions...] [Line:53] customblocks folder is missing
+!SESSION 2025-09-16 23:42:34.561 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.13
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -pluginCustomization defaults.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization defaults.ini
+
+!ENTRY com.wpl.workbench.cache.internal.CachingServiceImpl 1 0 2025-09-16 23:42:39.900
+!MESSAGE [INFO ] [Start Level: Equinox Container: baee4661-2ea9-4fa4-86eb-067ec2040abb] [Line:348] Creating cache with settings CacheSettings [storagePath=D:\workspace\first_git\Altair\.metadata\.plugins\com.wpl.workbench.ui\result-cache, duration=PT720H, isPersisted=true, isLimitedDatasetSize=false, datasetDiskSize=0, datasetDiskUnit=null]
+
+!ENTRY org.eclipse.core.runtime 4 0 2025-09-16 23:43:19.822
+!MESSAGE Invalid input url:platform:/plugin/org.eclipse.jdt.junit/icons/full/etool16/run_exc.png
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "org.eclipse.jdt.junit".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:63)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:296)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:219)
+	at org.eclipse.ui.internal.menus.MenuHelper.getIconURI(MenuHelper.java:221)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.createMenuCommandAddition(MenuAdditionCacheEntry.java:264)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.addMenuChildren(MenuAdditionCacheEntry.java:209)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.mergeIntoModel(MenuAdditionCacheEntry.java:165)
+	at org.eclipse.ui.internal.menus.MenuPersistence.readAdditions(MenuPersistence.java:143)
+	at org.eclipse.ui.internal.menus.MenuPersistence.read(MenuPersistence.java:99)
+	at org.eclipse.ui.internal.menus.WorkbenchMenuService.readRegistry(WorkbenchMenuService.java:536)
+	at org.eclipse.ui.internal.Workbench$32.runWithException(Workbench.java:2366)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:36)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:94)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2362)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1711)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2854)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:641)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.core.runtime 4 0 2025-09-16 23:43:19.824
+!MESSAGE Invalid input url:platform:/plugin/org.eclipse.jdt.junit/icons/full/etool16/debug_exc.png
+!STACK 0
+java.io.IOException: Unable to resolve plug-in "org.eclipse.jdt.junit".
+	at org.eclipse.core.internal.runtime.PlatformURLPluginConnection.parse(PlatformURLPluginConnection.java:63)
+	at org.eclipse.core.internal.runtime.FindSupport.find(FindSupport.java:296)
+	at org.eclipse.core.runtime.FileLocator.find(FileLocator.java:219)
+	at org.eclipse.ui.internal.menus.MenuHelper.getIconURI(MenuHelper.java:221)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.createMenuCommandAddition(MenuAdditionCacheEntry.java:264)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.addMenuChildren(MenuAdditionCacheEntry.java:209)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.mergeIntoModel(MenuAdditionCacheEntry.java:165)
+	at org.eclipse.ui.internal.menus.MenuPersistence.readAdditions(MenuPersistence.java:143)
+	at org.eclipse.ui.internal.menus.MenuPersistence.read(MenuPersistence.java:99)
+	at org.eclipse.ui.internal.menus.WorkbenchMenuService.readRegistry(WorkbenchMenuService.java:536)
+	at org.eclipse.ui.internal.Workbench$32.runWithException(Workbench.java:2366)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:36)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4802)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:94)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2362)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1711)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2854)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:641)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY com.wpl.workbench.hub.internal.BasicHubConnection 4 0 2025-09-16 23:43:20.485
+!MESSAGE [ERROR] [main] [Line:303] Problem creating or reading property file
+java.nio.file.NoSuchFileException: C:\Users\HP\Local Settings\Application Data\Altair\Analytics Workbench\Workbench\com.wpl.workbench.hub
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.asIOException(Unknown Source) ~[?:?]
+	at java.base/sun.nio.fs.WindowsWatchService$Poller.implRegister(Unknown Source) ~[?:?]
+	at java.base/sun.nio.fs.AbstractPoller.processRequests(Unknown Source) ~[?:?]
+	at java.base/sun.nio.fs.WindowsWatchService$Poller.run(Unknown Source) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[?:?]
+
+!ENTRY com.wpc.wps.ui.WpsUIPlugin 1 0 2025-09-16 23:43:20.732
+!MESSAGE [INFO ] [main] [Line:367] Workbench startup environment info : WPS Version=[5.25.1.0.1401-GA-release-2025.0], os=[win32], arch=[x86_64], nl=[en_IN]
+
+!ENTRY org.eclipse.jface 2 0 2025-09-16 23:43:21.501
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-09-16 23:43:21.501
+!MESSAGE A conflict occurred for ALT+CTRL+R:
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(com.wpc.wps.ui.commands.runStepDefault,Run SAS Language step,
+		Run the currently selected SAS Language step.,
+		Category(com.wpc.wps.ui.commands,Altair,%category.wps.description,true),
+		WorkbenchHandlerServiceHandler("com.wpc.wps.ui.commands.runStepDefault"),
+		[Parameter(com.wpc.wps.ui.commandParameters.server,Server,null,true)],,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		WorkbenchHandlerServiceHandler("org.python.pydev.debug.setnext"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.wpl.workbench.cache.customblocks.InstallationCustomBlockRepository 2 0 2025-09-16 23:43:30.893
+!MESSAGE [WARN ] [Worker-2: Refreshing custom block definitions...] [Line:53] customblocks folder is missing
+
+!ENTRY com.wpl.workbench.cache.customblocks.InstallationCustomBlockRepository 2 0 2025-09-16 23:43:31.040
+!MESSAGE [WARN ] [Worker-2: Refreshing custom block definitions...] [Line:53] customblocks folder is missing
+
+!ENTRY com.wpl.workbench.cache.customblocks.InstallationCustomBlockRepository 2 0 2025-09-16 23:43:35.964
+!MESSAGE [WARN ] [Worker-2: Refreshing custom block definitions...] [Line:53] customblocks folder is missing

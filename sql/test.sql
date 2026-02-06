@@ -1,4 +1,5 @@
-
+create database mysql_java;
+use mysql_java;
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
     first_name VARCHAR(50),
