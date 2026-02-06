@@ -1,0 +1,11 @@
+ProductID,ProductName,Category,SubCategory,Cost,Supplier
+P001,Laptop X210,Technology,Laptops,300,HP
+P002,Desk Chair,Furniture,Chairs,150,Ikea
+P003,Headphones Pro,Technology,Accessories,100,Sony
+P004,Office Table,Furniture,Tables,250,Ikea
+P005,LED Monitor,Technology,Monitors,200,Dell
+P006,Wireless Mouse,Technology,Accessories,50,Logitech
+P007,Printer X200,Technology,Printers,180,Canon
+P008,Pen Drive 64GB,Technology,Accessories,20,Sandisk
+P009,Smartphone A10,Technology,Mobiles,400,Samsung
+P010,Bookshelf,Furniture,Shelves,120,Ikea
